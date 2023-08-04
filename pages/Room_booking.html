@@ -1,0 +1,165 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scal=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h1 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Booking rooms</h1><hr>
+<link rel="icon" type="image/x-icon" href="loginicon.jpg">
+        <meta name="viewport" content="width=divice-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<style>
+body{
+    background-image:url('/images/82802.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+#form{
+    border-radius: 25px;
+    background-color: #000;
+    height: 400px;
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 0.8;
+}
+#first-group{
+    border: 1px solid lime;
+    border-radius: 25px;
+    width: 400px;
+    margin-top: 30px;
+    position: absolute;
+}
+#content{
+    border: 1px solid #fff;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+#content #input-group{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 8px;
+    width: 300px;
+    color: #fff;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.fa{
+    display: inline-block;
+    color: red;
+    border-right: 1px solid #fff;
+    padding: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+
+#second-group{
+    border: 1px solid lime;
+    width: 450px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+#submit-btn{
+    margin-top: 30px;
+    margin-left: 600px;
+    background: transparent;
+    color: #fff;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 50px;
+    outline: none;
+    padding: -10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+btn a :hover{
+    opacity: 0.8;
+    background: #eb0839;
+    box-shadow: 0 0 5px #eb0839, 0 0 25px #eb0839, 0 0 50px #eb0839 ,0 0 200px #eb0839;
+}
+
+
+
+</style>
+
+<body>
+<div class="container" >
+<form class="form-group">
+<div id="form">
+<h1 style="text-align: center; color: #fff; font-family: 'Times New Roman', Times, serif;">Booking now</h1><hr>
+<div id="first-group">
+<div id="content">
+<i class="fa fa-user" aria-hidden="true"></i>
+<input type="text" id="input-group" placeholder="First Name" required>
+</div>
+
+<div id="content">
+<i class="fa fa-phone"  airia-hidden="true"></i>
+<input type="text" id="input-group" placeholder="Phone Number" required>
+</div>
+
+<div id="content">
+<i class="fa fa-calendar" aria-hidden="true"></i>
+<input type="text" id="input-group" placeholder="Arrival date" required>
+</div>
+
+<div id="content">
+<i class="fa fa-user" aria-hidden="true"></i>
+<select id="input-group" style="background-color: black;" required>
+<option value="">NO.of Guests</option>
+<option value="">1-5</option>
+<option value="">6-10</option>
+<option value="">11-20</option>
+</select>
+</div>
+</div>
+
+
+<div id="second-group">
+<div id="content">
+<i class="fa fa-user" aria-hidden="true"></i>
+<input type="text" id="input-group" placeholder="Last Name" required>
+</div>
+
+<div id="content">
+<i class="fa fa-envelope" aria-hidden="true"></i>
+<input type="email" id="input-group" placeholder="Email Id" required>
+
+</div>
+<div id="content">
+<i class="fa fa-calendar" aria-hidden="true"></i>
+<input type="text" id="input-group" placeholder="Checkout Date" required>
+</div>
+
+<div id="content">
+<i class="fa fa-user" aria-hidden="true"></i>
+<select id="input-group" style="background-color: black;" required>
+<option value="">Rooms Types</option>
+<option value="">single bed</option>
+<option value="">double bed</option>
+<option value="">four bed</option>
+<option value="">Ac-single bed</option>
+<option value="">Ac-double bed</option>
+<option value="">Ac-four bed</option>
+</select>
+</div>
+</div>
+
+<button type="submit" value="submit" id="submit-btn">Book Now</button>
+
+</div>
+</form>
+
+</div>
+
+</body>
+</html>
